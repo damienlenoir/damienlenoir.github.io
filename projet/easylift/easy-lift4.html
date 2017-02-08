@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="alphabet.js"></script>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+		<title>Damien LENOIR, CV en ligne</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="icon" type="image/png" href="favicon.bmp" />
+
+	</head>
+<body>
+		<div id="header">
+			<div ID= "headlines">
+			<div ID="flags">
+			<a href="easy-lift4.html"><img src="fr.jpg"></a> 
+			<a href="easy-lift4EN.html"><img src="uk.png"></a>
+			</div>
+			<h1>Damien Lenoir</h1>
+			<h3>Bienvenue sur mon CV en ligne</h3>
+			<h4>La version PDF est accessible ici: <a href="DamienLENOIRfr.pdf" target="_blank" ><img src="../../logopdf.png"></a></h4>
+			</div>
+		</div>
+
+			<div id="navigationtop">
+				<ul>
+					<li><a href="index_fr.html">Expérience</a></li>
+					<li><a href="education_fr.html">Formation</a></li>
+					<li><a href="skills_fr.html">Compétences</a></li>
+					<li ID="open">Projets</a></li>
+					<li><a href="contact-us_fr.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div ID="content">
+
+			<h2>Enregistrement de locations personnalisées</h2>
+			
+			<p>Je voulais que les utilisateurs puissent enregistrées de locations personnalisées car c'est plus précis et plus pratique que des noms de villes.
+			Pour cela j'ai utilisé 2 APIs de google Maps:</p>
+			<h5>Maps Embed API </h5>
+			<p>Cette API permet d'inclure des cartes, le site va s'en servire pour aider l'utilisateur à trouver sa location</p>
+			<a href="https://developers.google.com/maps/documentation/embed/?hl=fr">https://developers.google.com/maps/documentation/embed/?hl=fr</a>
+			<h5>Geocoding API </h5>
+			
+			<p>Cette API permet d'obtenir les coordonées géographique à partir d'une adresse. Le site créé une requête HTTP qui retourne une réponse XML.
+			Avec PHP on retourne les valeurs afin de les enregistrer dans la BDD via une requête SQL.</p>
+			<a href="https://developers.google.com/maps/documentation/geocoding/intro?hl=fr">https://developers.google.com/maps/documentation/geocoding/?hl=fr</a>
+			<h4>Voici l'interface d'enregistrement des locations:</h4>
+			<img src="gps.png" id="pic9">
+			<img src="gps2.png" id="pic10">
+			<img src="gps3.png" id="pic11">
+			<img src="gps4.png" id="pic12">
+			
+			
+			
+			<div id="suite"><a href="easy-lift5.html">Suite de la visite</a></div>
+			
+			
+			</div>
+			<div ID="footnote">
+				<p>&#169; 2017 - Damien LENOIR - Hosted on Github - <a href="https://github.com/" target="_blank"><img src="../../git.png"</a></p>
+			</div>
+	</body>
+</html>
+
